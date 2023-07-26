@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Menu | Fiesta House</title>
+    <link rel="icon" type="images/png" href="images/favicon.jpg" sizes="32x32">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@300;400;500;600;700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-------- header -------->    
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="./"><img src="image/main.png" width="100px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Service</a></li>
+                        <li></li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="image/bag.png" width="80px" height="80px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        
+    </div>
+    </div>
+
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Menu</h2>
+    </div>
+    <h2 class="title">Famous Filipino Product</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="P1.html"><img src="image/lapu-lapu_guitar.png"></a>
+            <h4>P1 - Lapu-Lapu Guitar</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>P1000.00</p>
+        </div>
+        <div class="col-4">
+            <a href="./P2"><img src="image/abacabasket.jpg"></a>
+            <h4>P2 - Abaca Basket</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>P249.00</p>
+        </div>
+        <div class="col-4">
+            <a href="./P3"><img src="image/tribal.png"></a>
+            <h4>P3 - Tribal Handicrafts</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>P299.00</p>
+        </div>
+        <div class="col-4">
+            <a href="./P4"><img src="image/manilarope.jpg"></a>
+            <h4>P4 - Manila Rope</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>P199.00</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <a href="./P5"><img src="image/clay.jpg"></a>
+            <h4>P5 - Clay Poltery</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>P149.00</p>
+        </div>
+        <div class="col-4">
+            <a href="./P6"><img src="image/sugarcane.jpg"></a>
+            <h4>P6 - Sugarcane</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>P100.00</p>
+        </div>
+        <div class="col-4">
+            <a href="./P7"><img src="image/kapengbarako.jpg"></a>
+            <h4>P7 - Kapeng Barako</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>P299.00</p>
+        </div>
+        <div class="col-4">
+            <a href="./P8"><img src="image/wovenbags.jpg"></a>
+            <h4>P8 - Woven Bags</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>P349.00</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <a href="./P9"><img src="image/pahiyas tambag.jpg"></a>
+            <h4>P9 - Pahiyas Tambag</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>P129.00</p>
+        </div>
+        <div class="col-4">
+            <a href="./P10"><img src="image/Puffed Rice.jpg"></a>
+            <h4>P10 - Puffed Rice</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>P50.00</p>
+        </div>
+        <div class="col-4">
+            <a href="./P11"><img src="image/yakan.jpg"></a>
+            <h4>P11 - Yakan</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>P199.00</p>
+        </div>
+        <div class="col-4">
+            <a href="./P12"><img src="image/milkycandy.jpg"></a>
+            <h4>P12 - Milky Candy</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>P249.00</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <a href="./P13"><img src="image/walis.jpg"></a>
+            <h4>P13 - Filipino Broom</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>P199.00</p>
+        </div>
+        <div class="col-4">
+            <a href="./P14"><img src="image/bakya.jpg"></a>
+            <h4>P14 - Bakya</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>P249.00</p>
+        </div>
+        <div class="col-4">
+            <a href="./P15"><img src="image/pearl.jpg"></a>
+            <h4>P15 - Philippine Pearl</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>P1500.00</p>
+        </div>
+        <div class="col-4">
+            <a href="./P16"><img src="image/Abaniko.jpg"></a>
+            <h4>P16 - Abaniko</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>P149.00</p>
+        </div>
+    </div>
+    
+
+    <h2 class="title">Filipino Desserts</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="./S1"><img src="images/S1.JPG"></a>
+            <h4>S1 - Halo-halo</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>P99.00</p>
+        </div>
+        <div class="col-4">
+            <a href="./S2"><img src="images/S2.jpg"></a>
+            <h4>S2 - Mais Con Yelo</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>P99.00</p>
+        </div>
+        <div class="col-4">
+            <a href="./S3"><img src="images/S3.png"></a>
+            <h4>S3 - Taho</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>P69.00</p>
+        </div>
+        <div class="col-4">
+            <a href="./S4"><img src="images/S4.jpg"></a>
+            <h4>S4 - Mango Sago</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>P69.00</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <a href="./S5"><img src="images/S5.JPG"></a>
+            <h4>S5 - Leche Flan</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>P69.00</p>
+        </div>
+        <div class="col-4">
+            <a href="./S6"><img src="images/S6.JPG"></a>
+            <h4>S6 - Biko</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>P69.00</p>
+        </div>
+        <div class="col-4">
+            <a href="./S7"><img src="images/S7.JPG"></a>
+            <h4>S7 - Maja Blanca</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>P69.00</p>
+        </div>
+        <div class="col-4">
+            <a href="./8"><img src="images/S8.jpg"></a>
+            <h4>S8 - Kutsinta</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>P69.00</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <a href="./S9"><img src="images/S9.jpg"></a>
+            <h4>S9 - Bibingka Cake</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>P89.00</p>
+        </div>
+        <div class="col-4">
+            <a href="./S10"><img src="images/S10.jpg"></a>
+            <h4>S10 - Casava Cake</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>P69.00</p>
+        </div>
+        <div class="col-4">
+            <a href="./S11"><img src="images/S11.jpg"></a>
+            <h4>S11 - Buko Salad</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>P99.00</p>
+        </div>
+        <div class="col-4">
+            <a href="./S12"><img src="images/S12.jpg"></a>
+            <h4>S12 - Turon</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>P69.00</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-------footer------>
+<!-------- footer -------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="image/playstore.PNG">
+                    <img src="image/appstore.PNG">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="image/fhblack.PNG">
+                <p>The purpose of Tourist PH is to facilitate meaningful travel experiences 
+                    that go beyond mere sightseeing. We believe that travel has the power to
+                    transform individuals and communities, and we are committed to promoting
+                    responsible and ethical tourism. By providing accurate and up-to-date information,
+                    highlighting lesser-known destinations, and supporting local artisans and
+                    entrepreneurs, we aim to contribute to the sustainable development of the
+                    tourism industry in the Philippines.
+                    </p>
+            </div>
+            <div class="footer-col-3">
+                <ul>
+                <h3>Useful Links</h3>
+                <li><a href="./promo">Promos</a></li>
+                <li><a href="./contact.">Customer Care</a></li>
+                <li><a href="./tc">Terms & Conditions</a></li>
+                <li><a href="./privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <ul>
+                <h3>Stay Connected</h3>
+                <li><a href="https://facebook.com/fiestahouseph">Facebook</a></li>
+                <li><a href="https://twitter.com/fiestahouseph">Twitter</a></li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="https://youtube.com/channel/UC37AGb8ZIBe5YhbGHy-Cwiw">YouTube</a></li>
+                </ul>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Tourista PH</p>
+        </div>
+    </div>
+</div>
+<!----------js for toggle menu-------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>

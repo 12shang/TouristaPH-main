@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Terms & Condition</title>
+    <link rel="icon" type="images/png" href="image/main.png" sizes="32x32">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@300;400;500;600;700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="marquee">
+    <div> Welcome to Tourist PH Website! Come and know more about Philippine's Best Tourist spot and products</div>
+</div>
+<!-------- header -------->   
+<div class="tc-header">
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <a href="./"><img src="image/main.png" width="100px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                 <li><a href="menu.html">Menu</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li><a href="contact.html">Service</a></li>
+                 <li></li><a href="account.html">Account</a></li>
+                
+             </ul>
+        </nav>
+        <img src="images/menu.png" class="menu-icon" 
+        onclick="menutoggle()">
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h2>Terms & Condition</h2>
+                <p> <br>Welcome to Tourista PH - Your Gateway to Exquisite Wonders 
+                    and Filipino Treasures! By accessing and using our website, you 
+                    agree to be bound by the following terms and conditions. If you 
+                    do not agree to these terms, please refrain from using our website.
+                    <br>
+            <h3> <br> Territories Covered</h3>
+                <p> 2.1. Tourista PH is accessible worldwide, and users from all countries are welcome to explore our website.
+                    <br>
+                    <br>
+                    2.2. However, some content or services provided on Tourista PH may be specific to certain regions or locations within the Philippines. 
+                    <br>Users are responsible for complying with the local laws and regulations of their respective territories. </p>
+                <br>
+            <h3> <br>Account Creation</h3>
+                <p> When using Tourista PH, certain features and services may 
+                    require you to create a user account. To sign up, you will 
+                    need to provide accurate and up-to-date information. 
+                    It is your responsibility to maintain the confidentiality 
+                    of your account details, including your password. 
+                    Any activities or actions conducted through your 
+                    account will be considered your sole responsibility. 
+                    We recommend keeping your account information secure to prevent 
+                    unauthorized access or use. By creating an account on Tourista PH, 
+                    you agree to abide by our Terms and Conditions and Privacy Policy. 
+                    We value your trust and assure you that your personal information 
+                    will be handled in accordance with our Privacy Policy. Should you 
+                    have any questions or need assistance with your account, feel free to 
+                    contact our customer support team at the provided email address or phone number.</p>
+                <br>
+    <h3><br>Privacy Policy</h3>
+        <p> Our Privacy Policy in connection with how we process your personal information collected from 
+            this Site, and any changes thereto, which we may implement from time to time, may be found in 
+            the Privacy Policy. You agree that with your acceptance of these Terms and Conditions, you have 
+            read, understood and accepted our Privacy Policy.<br> </p>
+    <h3><br>Updating these Terms and Conditions</h3>
+        <p> Whenever necessary, we may, from time to time, update and/or revise these Terms and Conditions. 
+            We shall inform you of any update or revision by placing the date of the latest version on top 
+            of these Terms and Conditions.<br> </p> 
+    <h3><br>Contact Us</h3>
+        <p> If you have any questions regarding this Terms and Conditions, please contact us through:<br> 
+        <br>Customer Care Hotline: (02)-8888-0000
+        <br>Customer Care Email: info@touristaph.com <br></p>    
+        </div>
+    </div>
+</div>
+</div>
+
+<!-------- footer -------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="image/playstore.PNG">
+                    <img src="image/appstore.PNG">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="image/fhblack.PNG">
+                <p>The purpose of Tourist PH is to facilitate meaningful travel experiences 
+                    that go beyond mere sightseeing. We believe that travel has the power to
+                    transform individuals and communities, and we are committed to promoting
+                    responsible and ethical tourism. By providing accurate and up-to-date information,
+                    highlighting lesser-known destinations, and supporting local artisans and
+                    entrepreneurs, we aim to contribute to the sustainable development of the
+                    tourism industry in the Philippines.
+                    </p>
+            </div>
+            <div class="footer-col-3">
+                <ul>
+                <h3>Useful Links</h3>
+                <li><a href="ccprivacy.html">Customer Care</a></li>
+                <li><a href="tc.html">Terms & Conditions</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <ul>
+                <h3>Stay Connected</h3>
+                <li><a href="https://www.facebook.com/profile.php?id=100095021358796" target="blank" rel="noopener noreferrer">Facebook</a></li>
+                <li><a href="https://twitter.com/TouristaPH2023" target="blank" rel="noopener noreferrer">Twitter</a></li>
+                <li><a href="https://www.youtube.com/channel/UCtRvI2vSomXK1cU_7c_i4Qg" target="blank" rel="noopener noreferrer">YouTube</a></li>
+                </ul>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Tourista PH</p>
+        </div>
+    </div>
+</div>
+<!----------js for toggle menu--------> 
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>
